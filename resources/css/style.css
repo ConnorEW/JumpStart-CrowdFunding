@@ -209,30 +209,23 @@ li.slick-active button {
 /* Explore.html */
 .explore-intro-box{
     padding: 5rem 2rem;
-    /* background-image: url("../images/jumbotron-bike.jpg"); */
     background-color: coral;
     margin: auto;
     text-align: center;
 }
 
 .explore-intro-content{
-    /* background-color: #000; */
     color: white;
-    /* display: flex; */
 }
 
 .search-box{
     padding: 3rem 0;
-    /* align-self: center; */
-    /* background-color: blue; */
 }
 
 .search-bar{
-    /* width: auto; */
     height: auto;
     margin: auto;
     padding: 5rem 15rem;
-    /* text-align: center; */
 }
 
 #search-input{
@@ -244,6 +237,7 @@ li.slick-active button {
 
 #search-button:hover{
   background-color: turquoise;
+  cursor: pointer;
 }
 
 #search-button{
@@ -260,4 +254,9 @@ li.slick-active button {
 
 .card-btn{
     margin: auto;
+}
+
+.popular-projects{
+    padding: 2rem 0;
+    background-color: blue;
 }
